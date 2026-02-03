@@ -84,9 +84,7 @@ git commit -am"creating sudoku1a.lp"
 Every time you push a new commit, your solution will be tested automatically. This also applies to the following questions.
 **You should have obtained now 10 points.**
 
-We recommend that you create new commits frequently when doing the rest of this project. If at some point you realize you made a mistake, you can revert to a previous commit. Pushing to the GitHub repository may also help you in case you accidentally lose your local copy. If you have doubts about Git or Github, or you can learn more about it, you can read the tutorial at the following link:
-
-https://github.com/Advanced-Concepts-Programming-Languages/github-starter-course
+We recommend that you create new commits frequently when doing the rest of this project. If at some point you realize you made a mistake, you can revert to a previous commit. Pushing to the GitHub repository may also help you in case you accidentally lose your local copy.
 
 In addition, if you submit a question to the instructors, please include the link to your GitHub repository and be sure that you have pushed the latest version of your code.
 
