@@ -38,7 +38,7 @@ sudoku(9,1,3) sudoku(9,2,4) ... sudoku(9,8,7) sudoku(9,9,9)
 ```
 
 ## Formalities.
-You can work on the solution by yourself or in groups. Different groups have to submit different solutions, in case of plagiarism all groups involved will fail the project.
+This is an individual project. You must work on the solution by yourself. In case of plagiarism, all students involved will fail the project.
 
 Your solution has to correctly encode all solutions for every instance. Our test instances usually have several solutions. Your code will be autograded for technical correctness. However, the correctness of your implementation -- not the autograder's judgments -- will be the final judge of your score. If necessary, we will review and grade assignments individually to ensure that you receive due credit for your work.
 
@@ -56,7 +56,7 @@ We will use Git and GitHub as a framework for developing this project. This ques
 ```sh
 git clone <URL>
 ```
-A new directory with the name of this project will be created. Now create a file ```group.txt``` and write the name of each of the components of the group in a different line (if you work alone just add your name in the first line). Add it to the list of tracked files by typing
+A new directory with the name of this project will be created. Create a file named group.txt and write your name in the first line. Add it to the list of tracked files by typing
 ```sh
 git add group.txt
 ```
