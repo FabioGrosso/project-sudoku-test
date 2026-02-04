@@ -92,7 +92,7 @@ In addition, if you submit a question to the instructors, please include the lin
 To begin with, you will represent a 4x4 Sudoku. Later you will modify it to handle the 9x9 case.
 
 ### Question 1a (25 points):
-For this question, you should copy the file `sudoku.`lp``` to ```sudoku1a.lp``` and modify the latter. You should fill the board with a number between 1 and 4 in each cell such that each column and each row contains all numbers between 1 and 4.
+For this question, you should copy the file ```sudoku.lp``` to ```sudoku1a.lp``` and modify the latter. You should fill the board with a number between 1 and 4 in each cell such that each column and each row contains all numbers between 1 and 4.
 
 The following command can be used to find all answer sets of a particular instance stored in file ```instances/4x4/ex00.lp```:
 ```sh
