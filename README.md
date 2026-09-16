@@ -38,7 +38,7 @@ sudoku(9,1,3) sudoku(9,2,4) ... sudoku(9,8,7) sudoku(9,9,9)
 ```
 
 ## Formalities.
-This is an individual project. You must work on the solution by yourself. In case of plagiarism, all students involved will fail the project.
+This is a group project with up to 3 students per group. You must develop your solution within your group. In case of plagiarism, all students involved will fail the project.
 
 Your solution has to correctly encode all solutions for every instance. Our test instances usually have several solutions. Your code will be autograded for technical correctness. However, the correctness of your implementation -- not the autograder's judgments -- will be the final judge of your score. If necessary, we will review and grade assignments individually to ensure that you receive due credit for your work.
 
@@ -52,11 +52,19 @@ Do not modify the file ```autograder.py``` nor any of the content of the directo
 
 ## Question 0: Git and GitHub (10 points)
 
-We will use Git and GitHub as a framework for developing this project. This question will help you to familiarize yourself with these tools. The first step is to clone this repository into your computer. For this, click the button **Code** in the right top corner of this page and copy the URL. Then, go to a terminal in your computer and type
+We will use Git and GitHub to develop this project.
+
+First, one member of each group should click **Fork** at the top-right corner of this repository's page to create a copy under their personal GitHub account. Each group should create only one fork and use it for the entire project.
+
+The repository owner should invite the other group members. All group members must accept their invitations before pushing changes.
+
+Each group must **submit its forked repository's URL** on Canvas.
+
+Next, each group member should clone the group's forked repository to their computer. On your group's repository page, click **Code**, copy the URL, and run:
 ```sh
 git clone <URL>
 ```
-A new directory with the name of this project will be created. Create a file named group.txt and write your name in the first line. Add it to the list of tracked files by typing
+One group member should create a file named `group.txt` and list all group members' full names, one per line. Add it to the list of tracked files by typing
 ```sh
 git add group.txt
 ```
@@ -79,6 +87,7 @@ You can get more information about the result of the test by clicking successive
 
 Now copy the file ```sudoku.lp``` to ```sudoku1a.lp``` and update the repository following the same steps as above. Note that when you create a new commit you should give a meaningful comment. For instance, now you can create a new commit using the command
 ```sh
+git add sudoku1a.lp
 git commit -am"creating sudoku1a.lp"
 ```
 Every time you push a new commit, your solution will be tested automatically. This also applies to the following questions.
